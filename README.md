@@ -15,6 +15,10 @@ I spent about 4 hours on this project. While I had a ton of fun learning Redwood
 yarn redwood dev
 ```
 
+### Deployed @ Netlify
+
+https://weatherstation-mento.netlify.app
+
 ## Redwood
 
 > **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
