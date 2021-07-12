@@ -1,13 +1,13 @@
 # Quick Notes
 
-## TODO: 
+## TODO
 
 I've scattered a bunch of TODOs in the code. Given more time, I would:
 - Update CSS, with a focus on more responsive design. 
 - Add functionality around recipe calls
 - Add additional API integrations
 
-### NOTE:
+### NOTE
 
 I spent about 4 hours on this project. While I had a ton of fun learning RedwoodJS, I tried to reasonably timebox myself to reflect the intent of the challenge. Also, I made no majore config changes, so the normal commands will run this locally.
 
@@ -15,7 +15,7 @@ I spent about 4 hours on this project. While I had a ton of fun learning Redwood
 yarn redwood dev
 ```
 
-# Redwood
+## Redwood
 
 > **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
 
