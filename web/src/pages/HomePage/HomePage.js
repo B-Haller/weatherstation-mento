@@ -14,7 +14,6 @@ const HomePage = () => {
   }
   const onRecipeSearch = () => {
     setRecipeSearch(recipeSearch + 1)
-    console.log(recipeSearch)
   }
 
   return (
@@ -85,7 +84,7 @@ const HomePage = () => {
               </div>
             </section>
           </div>
-          {recipeSearch != 0 &&(
+          {recipeSearch != 0 && (
             <div
               className={
                 'ml-4 p-8 bg-green-200 rounded-lg shadow-md mt-4 max-w-lg min-w-3/4'
