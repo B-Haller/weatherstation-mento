@@ -1,13 +1,13 @@
-# Quick Notes
+# Quick Info
 
-## TODO
+## Todo
 
 I've scattered a bunch of TODOs in the code. Given more time, I would:
 - Update CSS, with a focus on more responsive design. 
 - Add functionality around recipe calls
 - Add additional API integrations
 
-### NOTE
+### Note
 
 I spent about 4 hours on this project. While I had a ton of fun learning RedwoodJS, I tried to reasonably timebox myself to reflect the intent of the challenge. Also, I made no majore config changes, so the normal commands will run this locally.
 
