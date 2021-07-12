@@ -4,7 +4,7 @@ export const getRandomRecipe = async () => {
   //TODO: remove API key and store in safe config
   //TODO: Modify endpoint to accept multiple recipe request/add tags/return steps
   const response = await fetch(
-    `https://api.spoonacular.com/recipes/random?apiKey=e09154850cef41fcae62cc4d49d10233&number=1`
+    `https://api.spoonacular.com/recipes/random?apiKey=${process.env.RECIPE_API_KEY}&number=1`
   )
   const data = await response.json()
   const recipeData = data.recipes[0]

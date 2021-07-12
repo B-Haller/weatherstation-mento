@@ -4,7 +4,7 @@ export const getWeatherByZip = async ({ zip }) => {
   //Appended imperial metrics to avoid unnecessary conversion
   //TODO: remove API key and store in safe config
   const response = await fetch(
-    `https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=imperial&appid=03259c9d1945b020432ca09b60024dd8`
+    `https://api.openweathermap.org/data/2.5/weather?zip=${zip},us&units=imperial&appid=${process.env.WEATHER_API_KEY}`
   )
   const weatherData = await response.json()
 
